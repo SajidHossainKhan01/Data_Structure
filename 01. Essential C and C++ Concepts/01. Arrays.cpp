@@ -1,4 +1,4 @@
-// Basic Array Declaration & Assignment
+// 𝐁𝐚𝐬𝐢𝐜 𝐀𝐫𝐫𝐚𝐲 𝐃𝐞𝐜𝐥𝐚𝐫𝐚𝐭𝐢𝐨𝐧 & 𝐀𝐬𝐬𝐢𝐠𝐧𝐦𝐞𝐧𝐭
 
 #include <iostream>
 using namespace std;
@@ -17,7 +17,7 @@ int main() {
     return 0;
 }
 
-// Array Initialization
+// 𝐀𝐫𝐫𝐚𝐲 𝐈𝐧𝐢𝐭𝐢𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧
 
 int a[] = {2, 4, 6, 8, 10, 12, 14};  // Size auto-determined (7)
 
@@ -27,7 +27,7 @@ int a[10] = {2, 4, 6, 8, 10, 12};
 // Initialize entire array to zero
 int a[10] = {0};
 
-// Displaying Array with for Loop
+// 𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐀𝐫𝐫𝐚𝐲 𝐰𝐢𝐭𝐡 𝐟𝐨𝐫 𝐋𝐨𝐨𝐩
 
 #include <iostream>
 using namespace std;
@@ -42,7 +42,7 @@ int main() {
     return 0;
 }
 
-// Displaying Array with for-each Loop (C++)
+// 𝐃𝐢𝐬𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐀𝐫𝐫𝐚𝐲 𝐰𝐢𝐭𝐡 𝐟𝐨𝐫-𝐞𝐚𝐜𝐡 𝐋𝐨𝐨𝐩 (𝐂++)
 
 #include <iostream>
 using namespace std;
@@ -57,7 +57,7 @@ int main() {
     return 0;
 }
 
-// Variable-Sized Array (user input)
+// 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞-𝐒𝐢𝐳𝐞𝐝 𝐀𝐫𝐫𝐚𝐲 (𝐮𝐬𝐞𝐫 𝐢𝐧𝐩𝐮𝐭)
 
 #include <iostream>
 using namespace std;

@@ -78,3 +78,5 @@ fun(2) → prints 2         ← second call of fun(3)
   fun(1) → prints 1
     fun(0) → returns
     fun(0) → returns
+
+**Output:** `3 2 1 1 2 1 1 2 1 1`

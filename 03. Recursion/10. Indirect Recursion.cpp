@@ -44,3 +44,8 @@ funB(0)  → 0 > 1? NO → returns
 **What makes it Indirect Recursion:**
 ```
 funA → calls funB → calls funA → calls funB → ...
+
+// 𝐖𝐡𝐲 𝐭𝐡𝐞 𝐩𝐫𝐨𝐭𝐨𝐭𝐲𝐩𝐞 𝐢𝐬 𝐧𝐞𝐞𝐝𝐞𝐝:
+
+void funB(int n);   // ✅ declare BEFORE use — tells compiler funB exists                     
+		    // without this, funA calling funB causes an error

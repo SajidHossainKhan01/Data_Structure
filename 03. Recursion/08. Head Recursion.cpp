@@ -37,3 +37,13 @@ int main() {
 
     return 0;
 }
+
+// 𝐖𝐡𝐚𝐭 𝐦𝐚𝐤𝐞𝐬 𝐢𝐭 𝐇𝐞𝐚𝐝 𝐑𝐞𝐜𝐮𝐫𝐬𝐢𝐨𝐧:
+
+void fun(int n) {
+    if (n > 0) {
+        fun(n - 1);         // ✅ HEAD — recursive call is the FIRST statement
+        // ... all processing after ...
+        printf("%d ", n);
+    }
+}
